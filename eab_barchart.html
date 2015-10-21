@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>EAB Barchart</title>
-		<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
-	</head>
-	<body>
-		<script src="eab_barchart.js"></script>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <title>EAB Barchart</title>
+    <style>
+      .axis text{font: 12px sans-serif;}
+      .axis path,
+      .axis line{fill: none; stroke: #000; shape-rendering: crispEdges;}
+      .x.axis path {display: none;}
+    </style>
+    <script type="text/javascript" src="d3/d3.js"></script>
+  </head>
+  <body>
+    <svg class="chart"></svg>
+    <script src="eab_barchart.js"></script>
+  </body>
 </html>
