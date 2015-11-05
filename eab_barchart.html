@@ -9,10 +9,12 @@
       .axis line{fill: none; stroke: #000; shape-rendering: crispEdges;}
       .x.axis path {display: none;}
     </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <script type="text/javascript" src="d3/d3.js"></script>
   </head>
   <body>
-    <svg class="chart"></svg>
-    <script src="eab_barchart.js"></script>
+    <div id="chart" class="chart" style="width: 800px; height: 380px; float: left; background-color: white;"></div>
+    <div id="sidebar" class="sidebar" style="margin-left: 800px; width:
+					   100px; height: 380px; background-color: white;"></div>
+    <script type="text/javascript" src="eab_barchart_according_to_book.js"></script>
   </body>
 </html>
