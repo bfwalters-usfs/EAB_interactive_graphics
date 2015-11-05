@@ -31,7 +31,7 @@ var x = d3.scale.ordinal()
     .rangeRoundBands([0,w], 0.04);
 
 var y = d3.scale.linear()
-    .domain([0,d3.max(ashVol[vis])])
+    .domain([0,1500])
     .range([h,0]);
 
 var xAxis = d3.svg.axis()
@@ -108,7 +108,6 @@ iyrSelect.append("rect")
 			     iyrSelect.select("rect")
 			         .attr("fill",function(d){if(infestYrs.indexOf(d)==vis)
 						      {return "steelblue";}else{return "white";}});
-			     y.domain([0,d3.max(ashVol[vis])]);
 			     iyr.select(".bar")
 			     .data(ashVol[vis])
 			     .transition()
