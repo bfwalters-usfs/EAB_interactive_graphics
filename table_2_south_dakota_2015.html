@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="jquery-3.1.0.min.js"></script> 
+<script type="text/javascript" src="jquery.tablesorter.min.js"></script> 
+<style>
+table {
+    font-family: arial, sans-serif;
+    width:100%;
+    font-size:16px;
+}
+td {
+    padding: 5px;
+    text-align: right;
+}
+th {
+    vertical-align: bottom;
+}
+<!-- table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+} -->
+</style>
+</head>
+<body>
+<table id="spp">
+	<thead>
+		<tr>
+			<th>Common name</th>
+			<th>Latin name</th>
+			<th>Million trees<sup>a</sup></th>
+			<th>Net volume<sup>b</sup> (million ft<sup>3</sup>)</th>
+			<th>Aboveground biomass<sup>a</sup> (thousand dry tons)</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td style="text-align:left">Ponderosa pine</td>
+			<td style="text-align:left"><em>Pinus ponderosa</em></td>
+			<td>348.9</td>
+			<td>1,646.4</td>
+			<td>30,504.4</td>
+		</tr>
+		<tr>
+			<td style="text-align:left">Bur oak</td>
+			<td style="text-align:left"><em>Quercus macrocarpa</em></td>
+			<td>31.3</td>
+			<td>113.8</td>
+			<td>3,532.5</td>
+		</tr>
+		<tr>
+			<td style="text-align:left">Eastern cottonwood</td>
+			<td style="text-align:left"><em>Populus deltoides</em></td>
+			<td>1.9</td>
+			<td>107.0</td>
+			<td>1,941.6</td>
+		</tr>
+		<tr>
+			<td style="text-align:left">White spruce</td>
+			<td style="text-align:left"><em>Picea glauca</em></td>
+			<td>31.5</td>
+			<td>92.2</td>
+			<td>1,655.7</td>
+		</tr>
+		<tr>
+			<td style="text-align:left">Green ash</td>
+			<td style="text-align:left"><em>Fraxinus pennsylvanica</em></td>
+			<td>28.8</td>
+			<td>82.1</td>
+			<td>2,452.5</td>
+		</tr>
+		<tr>
+			<td style="text-align:left">American elm</td>
+			<td style="text-align:left"><em>Ulmus americana</em></td>
+			<td>5.7</td>
+			<td>35.7</td>
+			<td>809.9</td>
+		</tr>
+		<tr>
+			<td style="text-align:left">Rocky Mountain juniper</td>
+			<td style="text-align:left"><em>Juniperus scopulorum</em></td>
+			<td>20.8</td>
+			<td>35.2</td>
+			<td>552.5</td>
+		</tr>
+		<tr>
+			<td style="text-align:left">Boxelder</td>
+			<td style="text-align:left"><em>Acer negundo</em></td>
+			<td>8.1</td>
+			<td>31.1</td>
+			<td>717.3</td>
+		</tr>
+		<tr>
+			<td style="text-align:left">Eastern redcedar</td>
+			<td style="text-align:left"><em>Juniperus virginiana</em></td>
+			<td>18.8</td>
+			<td>22.5</td>
+			<td>540.0</td>
+		</tr>
+		<tr>
+			<td style="text-align:left">Siberian elm</td>
+			<td style="text-align:left"><em>Ulmus pumila</em></td>
+			<td>2.7</td>
+			<td>20.6</td>
+			<td>518.7</td>
+		</tr>
+		<tr>
+			<td style="text-align:left">Quaking aspen</td>
+			<td style="text-align:left"><em>Populus tremuloides</em></td>
+			<td>18.0</td>
+			<td>16.5</td>
+			<td>379.0</td>
+		</tr>
+		<tr>
+			<td style="text-align:left">Hackberry</td>
+			<td style="text-align:left"><em>Celtis occidentalis</em></td>
+			<td>1.7</td>
+			<td>6.9</td>
+			<td>179.4</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
