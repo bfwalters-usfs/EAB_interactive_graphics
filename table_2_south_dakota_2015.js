@@ -1,5 +1,7 @@
 $(document).ready(function() 
     { 
-        $("#spp").tablesorter({sortList: [[2,1]]}); 
-    } 
+        $("#spp").tablesorter({
+			headers: {0: {sorter: false},
+			sortList: [[2,1]]});
+    }
 );
