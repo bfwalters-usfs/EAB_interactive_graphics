@@ -1,5 +1,5 @@
 $(document).ready(function() 
     { 
-        $("#spp").tablesorter({sortList: [2,0]}); 
+        $("#spp").tablesorter({sortList: [[2,0]]}); 
     } 
 );
